@@ -1,0 +1,41 @@
+.container
+    width: 100vw
+    height: 100vh
+    background-color: #ff0000af
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-image: url("https://icdn.dtcn.com/image/digitaltrends_es/rock-720x720.jpg")
+    background-size: cover
+    position: relative
+    // filter: blur(10px)
+    .blur
+        width: 100vw
+        height: 100vh
+        background: #000000cb
+        position: absolute
+        z-index: 1
+    .container__content
+        
+        .text-drum
+            font-size: 2em
+            color: #ffffff
+            text-align: center
+            font-family: 'Open Sans', sans-serif
+
+        .buttonDrumkit
+            span
+                color: #ffffff
+            font-size: 1.5em
+            margin: 0 auto
+            border: none
+            padding: 10px 20px
+            border-radius: 5px
+            background: #00000065
+            position: absolute
+            z-index: 11
+            &:hover
+                cursor: pointer
+            &:focus
+                border: 3px solid #06ccab
