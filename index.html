@@ -8,16 +8,40 @@
     <title>Drum Kit</title>
 </head>
 <body>
-    <div class="container">
-        <div class="blur"></div>
-        <div class="container__content">
-            <!-- <h1 class="text-drum">Drum Kit</h1> -->
-            <button class="buttonDrumkit">
-                <span class="buttonDrumkit-1">F <br> <span>kick</span> </span>
-                
-            </button>
+    <div class="keys">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <br>
+            <span class="sound">Hat</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <br>
+            <span class="sound">Pull</span>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <br>
+            <span class="sound">SNR</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <br>
+            <span class="sound">TMK</span>
+        </div>
+        <div class="key" data-key="32">
+            <kbd>Space</kbd>
+            <br>
+            <span class="sound">Guitar</span>
         </div>
     </div>
+
+
+    <audio data-key="65" src="src/Vintage Hip Hop Drum Kit/!HAT(LD0.WAV"></audio>
+    <audio data-key="83" src="src/Vintage Hip Hop Drum Kit/1PULL.WAV"></audio>
+    <audio data-key="70" src="src/Vintage Hip Hop Drum Kit/(SNR)(LD.WAV"></audio>
+    <audio data-key="71" src="src/Vintage Hip Hop Drum Kit/(TMK)SNR.WAV"></audio>
+    <audio data-key="32" src="src/Vintage Hip Hop Drum Kit/1GUIT(LD.WAV"></audio>
     <script src="js/index.js"></script>
 </body>
 </html>
